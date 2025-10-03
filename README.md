@@ -1,6 +1,9 @@
 # TDS Website
 
-Een moderne TypeScript website voor TDS Webontwikkeling, geoptimaliseerd voor Netlify deployment.
+Een moderne **TypeScript** website voor TDS Webontwikkeling, geoptimaliseerd voor Netlify deployment.
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)](https://www.netlify.com/)
 
 ## Project Structuur
 

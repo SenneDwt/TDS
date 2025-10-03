@@ -1,0 +1,29 @@
+# TypeScript files
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# JavaScript files
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+
+# HTML files (exclude from language detection)
+*.html linguist-language=HTML
+
+# CSS files
+*.css linguist-language=CSS
+
+# JSON files
+*.json linguist-language=JSON
+
+# Markdown files
+*.md linguist-language=Markdown
+
+# Configuration files
+*.toml linguist-language=TOML
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+
+# Exclude dist directory from language detection
+dist/ linguist-vendored
+node_modules/ linguist-vendored
+

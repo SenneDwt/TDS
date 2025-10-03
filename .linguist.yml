@@ -1,0 +1,14 @@
+# GitHub Linguist configuration
+# This file helps GitHub detect the correct primary language
+
+# Exclude directories from language detection
+vendored:
+  - dist/
+  - node_modules/
+
+# Force language detection
+linguist-detectable: true
+
+# Override language detection
+linguist-language: TypeScript
+
