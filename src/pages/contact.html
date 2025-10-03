@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TDS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">TDS</a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="hoe-werken-wij.html">Hoe werken wij</a></li>
+                        <li><a href="realisaties.html">Realisaties</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact</h1>
+                <p>Neem vrijblijvend contact met ons op</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contactgegevens</h2>
+                        <div class="contact-item">
+                            <h3>Telefoon</h3>
+                            <p>+31 (0) 123 456 789</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>info@tds.nl</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Adres</h3>
+                            <p>
+                                TDS Webontwikkeling<br>
+                                Straatnaam 123<br>
+                                1234 AB Stad
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Openingstijden</h3>
+                            <p>
+                                Maandag - Vrijdag: 09:00 - 17:00<br>
+                                Weekend: Op afspraak
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Stuur ons een bericht</h2>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="naam">Naam *</label>
+                                <input type="text" id="naam" name="naam" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="telefoon">Telefoon</label>
+                                <input type="tel" id="telefoon" name="telefoon">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="onderwerp">Onderwerp *</label>
+                                <select id="onderwerp" name="onderwerp" required>
+                                    <option value="">Kies een onderwerp</option>
+                                    <option value="website">Website ontwikkeling</option>
+                                    <option value="app">App ontwikkeling</option>
+                                    <option value="onderhoud">Onderhoud & Support</option>
+                                    <option value="consultancy">Consultancy</option>
+                                    <option value="anders">Anders</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="bericht">Bericht *</label>
+                                <textarea id="bericht" name="bericht" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Verstuur bericht</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TDS</h3>
+                    <p>Uw partner voor professionele webontwikkeling en digitale oplossingen.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigatie</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="hoe-werken-wij.html">Hoe werken wij</a></li>
+                        <li><a href="realisaties.html">Realisaties</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>+31 (0) 123 456 789</p>
+                    <p>info@tds.nl</p>
+                    <p>Straatnaam 123, 1234 AB Stad</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> TDS. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
