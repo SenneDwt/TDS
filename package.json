@@ -10,6 +10,7 @@
     "copy-assets": "mkdir -p dist/assets/css dist/assets/js && cp src/styles/* dist/assets/css/ && cp src/scripts/script.js dist/assets/js/ && cp src/pages/*.html dist/ && echo '/ /index.html 200\n/* /index.html 404' > dist/_redirects",
     "dev": "npm run compile && npm run copy-assets && npm run serve",
     "serve": "npx http-server dist -p 3000 -i index.html",
+    "local": "npx http-server src/pages -p 3000 -a 192.168.0.125 -i index.html",
     "start": "npm run build && npm run serve",
     "stats": "find src -name '*.ts' -o -name '*.js' -o -name '*.html' -o -name '*.css' | xargs wc -l"
   },
